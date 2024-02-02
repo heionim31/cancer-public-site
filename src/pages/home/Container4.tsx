@@ -10,7 +10,7 @@ export default function Container4() {
   const buttonTitle = "View Affiliates";
 
   return (
-    <div className="grid grid-cols-2 h-screen place-items-center px-64 bg-[#F5F5F5] bg">
+    <div className="grid grid-cols-2 h-screen place-items-center px-64 bg-[#F5F5F5]">
       {/* Column 1 */}
       <div className="flex flex-col col-span-1 w-5/6">
         <Text title={title} content={content} />
