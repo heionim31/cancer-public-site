@@ -2,7 +2,7 @@ import logo from "../assets/pcc-logo.svg";
 
 export default function Header() {
   return (
-    <header className="bg-[#204C3E] text-[#FCFCFC] px-4 sm:px-8 md:px-16 lg:px-32 py-4 border-b-4 border-b-[#D9D9D9]">
+    <header className="bg-[#204C3E] text-[#FCFCFC] px-4 sm:px-8 md:px-16 lg:px-32 py-4 border-b-4 border-b-[#D9D9D9] fixed top-0 z-50 w-full">
       <div className="container mx-auto">
         <div className="flex flex-col sm:flex-row items-center justify-between">
           <div className="flex items-center mb-2 sm:mb-0">
