@@ -1,5 +1,5 @@
 import logo from "../assets/pcc-logo.svg";
-import NavLinks from "../components/NavLinks";
+import NavLinks from "../components/Header/NavLinks";
 
 export default function Header() {
   return (
